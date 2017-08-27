@@ -16,6 +16,7 @@ gem 'haml'
 gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'paperclip', '~> 5.1'
+gem 'cocoon', '~> 1.2', '>= 1.2.10'
 
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
