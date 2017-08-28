@@ -20,12 +20,12 @@ ActiveRecord::Schema.define(version: 20170827093359) do
     t.index ["recipe_id"], name: "index_directions_on_recipe_id"
   end
 
-  create_table "ingrediends", force: :cascade do |t|
+  create_table "ingredients", force: :cascade do |t|
     t.string   "name"
     t.integer  "recipe_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["recipe_id"], name: "index_ingrediends_on_recipe_id"
+    t.index ["recipe_id"], name: "index_ingredients_on_recipe_id"
   end
 
   create_table "recipes", force: :cascade do |t|
